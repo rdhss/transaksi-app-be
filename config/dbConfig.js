@@ -1,8 +1,8 @@
 module.exports = {
-    HOST : "sql12.freesqldatabase.com",
-    USER : "sql12723941",
-    PASSWORD : "B25IgbXzcr",
-    DB : "sql12723941",
+    HOST : process.env.HOST,
+    USER : process.env.USER,
+    PASSWORD : process.env.PASSWORD,
+    DB : process.env.DATABASE,
     dialect : 'mysql',
 
 
