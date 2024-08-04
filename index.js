@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const app = express()
 
 const corsOptions ={
-    origin:['http://localhost:3001', 'https://transaksi-app-fe-vrd8.vercel.app/'], 
+    origin: '*', 
     credentials:true,
     optionSuccessStatus:200
 }
